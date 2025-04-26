@@ -8,8 +8,6 @@ function MenuItem({ pizza }) {
   const { id, name, unitPrice, ingredients, soldOut, imageUrl } = pizza;
 
   function handleAddItemToCart() {
-    console.log('dd');
-
     const nweItem = {
       pizzaId: id,
       name,
