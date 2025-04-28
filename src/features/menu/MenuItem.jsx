@@ -13,7 +13,8 @@ function MenuItem({ pizza }) {
   const isInCart = currentItemQuantity > 0;
 
   function handleAddItemToCart() {
-    const nweItem = {
+    
+    const newItem = {
       pizzaId: id,
       name,
       quantity: 1,
@@ -21,7 +22,8 @@ function MenuItem({ pizza }) {
       totalPrice: unitPrice * 1,
     };
 
-    dispatch(addItem(nweItem));
+
+    dispatch(addItem(newItem));
   }
 
   return (
