@@ -22,7 +22,7 @@ A simple yet functional pizza ordering app built with React, featuring dynamic m
 ## 🔗 Demo
 
 Check out the live version here:  
-👉 [Fast React Pizza Co. Demo](https://your-deployment-link.com)
+👉 [Fast React Pizza Co. Demo](https://fast-react-pizza-app-zzox.vercel.app/)
 
 ---
 
