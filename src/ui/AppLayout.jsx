@@ -2,7 +2,7 @@ import CartOverview from '../features/cart/CartOverview';
 import { Outlet, useNavigation } from 'react-router-dom';
 
 import Header from './Header';
-import Loader from './loader';
+import Loader from './Loader';
 
 function AppLayout() {
   const navigation = useNavigation();
